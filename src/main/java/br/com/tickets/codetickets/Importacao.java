@@ -15,6 +15,10 @@ public class Importacao {
     private String cliente;
     private LocalDate dataNascimento;
     private String evento;
+    private LocalDate data;
+    private String tipoIngresso;
+    private Double valor;
+    private LocalDateTime horaImportacao;
 
     public Long getId() {
         return id;
@@ -88,9 +92,6 @@ public class Importacao {
         this.horaImportacao = horaImportacao;
     }
 
-    private LocalDate data;
-    private String tipoIngresso;
-    private Double valor;
-    private LocalDateTime horaImportacao;
+
 }
 
